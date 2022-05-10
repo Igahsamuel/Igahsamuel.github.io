@@ -633,7 +633,11 @@ footer .container{
     flex-basis:45%;
     /* border:1px solid #000; */
     background:#fff;
-    margin-right:20px;
+    margin-right:35px;
+}
+.auto-right .flex-container{
+    width:190px;
+    height:180px;
 }
 .service-2 img{
     width:30vw;
@@ -644,6 +648,10 @@ footer .container{
     /* justify-content: flex-start; */
     padding:0 30px;
 }
+.auto-right .flex{
+    flex-wrap:wrap;
+}
+
 .contents h3{
     font-size: 3rem;
     font-weight: bold;
@@ -1144,6 +1152,17 @@ footer .container{
    .work .flex{
        flex-direction:column;
    }
+   .auto-right .flex-container{
+       width:125px;
+       height:140px;
+   }
+   .content h3{
+       font-size:2rem;
+       padding-bottom: 10px;
+   }
+   .contents p{
+       font-size:15px;
+   }
 } 
 /* for mobile screens up to 426 */
 @media screen and (max-width:426px){
@@ -1381,5 +1400,86 @@ footer .container{
 }
 .learn-more{
     margin-right: 15px;
+}
+
+/* Our services */
+.auto-left .content{
+    padding:0;
+}
+.content h3{
+    font-size:2rem;
+}
+.align .image img{
+    width:100%;
+}
+.service-1 img{
+    height:230px;
+    width:100%;
+    margin-bottom:30px;
+}
+.ourservices .image-section{
+    padding-left:0;
+}
+.ourservices .image-section .service-1{
+    position: unset;
+}
+.ourservices .services h1{
+    font-size:29px;
+}
+.ourservices .services p{
+    font-size:10px;
+    line-height:18.5px;
+}
+.ourservices .btn{
+    margin-top:10px;
+    font-size:12px;
+}
+.image-section .services{
+    height:250px;
+    width:98%;
+    padding: 25px 20px;
+}
+.auto .flex{
+    flex-direction: column;
+}
+.auto .auto-left .content{
+    padding:0 30px;
+}
+.auto .auto-left{
+    margin-right:0;
+}
+.service-2 img{
+    width:60vw;
+}
+.auto .auto-right .flex{
+    flex-direction: row;
+}
+.auto .flex-container{
+    width:46.5%;
+    height:140px;
+    margin-top:10px;
+    margin-right:8px;
+    margin-bottom:0;
+}
+.auto .flex-container img{
+    width:73%;
+}
+.problem{
+    padding:20px 0;
+}
+.content h3{
+    font-size:18px;
+}
+.align .inner-content p{
+    font-size:12px;
+}
+.inner-content .btn{
+    font-size:12px;
+}
+.auto-left .inner-content p{
+    font-size:12px;
+}
+.work{
+    padding:20px 0;
 }
 }
